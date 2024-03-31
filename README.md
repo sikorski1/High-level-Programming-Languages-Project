@@ -39,6 +39,7 @@ Zadanie 3
 > i) Umieść zaimportowany komponent w kontenerze <br><br>
 > Przykładowy wygląd <br><br><br>
 > ![Items](img/img7.png)
+> ![Items](img/img8.png)
 
 
 
