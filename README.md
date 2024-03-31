@@ -1,14 +1,18 @@
 # Część teoretyczna
   Prezentcja do całego laboratorium znajduje się [tutaj](https://github.com/sikorski1/High-level-Programming-Languages-Project/raw/main/React_Native_od_zera_JPWP.odp)
 Pomocne strony:
-- Wprowadzenie do Reacta - [Quick Start](https://react.dev/learn)
-- Hierarchia komponentów - [Thinking in React](https://react.dev/learn/thinking-in-react)
-- Wprowadzenie do Reacta Native - [Introduction](https://reactnative.dev/docs/getting-started)
-- Różnice w komponentach - [RN Components](https://reactnative.dev/docs/intro-react-native-components)
-- Najważniejsze kompnenty - [Core Components](https://reactnative.dev/docs/components-and-apis)
-- useState:
-  - [nauka](https://react.dev/learn/state-a-components-memory)
-  - [zaawansowane](https://react.dev/reference/react/useState)
+- React:
+  - Wprowadzenie do Reacta - [Quick Start](https://react.dev/learn)
+  - Dokumentacja - [React Reference Overview](https://react.dev/reference/react)
+  - useState:
+    - [nauka](https://react.dev/learn/state-a-components-memory)
+    - [zaawansowane](https://react.dev/reference/react/useState)
+- React Native:
+  - Wprowadzenie do Reacta Native - [Introduction](https://reactnative.dev/docs/getting-started)
+  - Hierarchia komponentów - [Thinking in React](https://react.dev/learn/thinking-in-react)
+  - Różnice w komponentach - [RN Components](https://reactnative.dev/docs/intro-react-native-components)
+  - Najważniejsze kompnenty - [Core Components](https://reactnative.dev/docs/components-and-apis)
+
 
 # Część praktyczna
 
