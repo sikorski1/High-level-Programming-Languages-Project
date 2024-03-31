@@ -15,13 +15,30 @@ Zadanie 2
 > a) Stwórz plik o nazwie FirstComponent.js <br><br>
 > b) Zaimportuj View, Text, TextInput, StyleSheet <br><br>
 > c) Zaimportuj useState <br><br>
-> d) Stwórz kontener, który będzie wypełniać <Text>, tekstem wpisanym do <TextInput> <br><br>
+> d) Stwórz komponent, który będzie wypełniać <Text>, tekstem wpisanym do <TextInput> <br><br>
 > e) Wykorzystaj useState oraz właściwości TextInput <br><br>
 > f) Oscyluj komponent <br><br>
 > g) Zaimprotuj komponent do pliku App.js <br><br>
 > h) Umieść zaimportowany komponent w kontenerze <br><br>
 > Przykładowy wygląd <br><br><br>
+> ![TextInput](img4.png)
 > ![TextInput](img2.png)
 > ![TextInput](img3.png) <br><br><br>
+
+Zadanie 3
+> a) Stwórz plik o nazwie SecondComponent.js <br><br>
+> b) Stwórz plik data.js, który wypełnisz danymi potrzebnymi do wypełnienia kart (id, text, img), zdjęcia pobierz z plików (icon1, icon2, ...) <br><br><br>
+> ![Struktura](img6.png) <br><br><br>
+> c) Zaimportuj View, Text, FlatList, Image, data do SecondComponent <br><br>
+> d) Stwórz View(flex:1) > FlatListę, do której przekażesz dane <br><br>
+> e) Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych <br><br>
+> f) Struktura <br><br><br>
+> ![Struktura](img5.png) <br><br><br>
+> g) Oscyluj karty <br><br>
+> h) Zaimprotuj komponent do pliku App.js <br><br>
+> i) Umieść zaimportowany komponent w kontenerze <br><br>
+> Przykładowy wygląd <br><br><br>
+> ![Items](img7.png)
+
 
 
