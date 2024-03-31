@@ -9,11 +9,11 @@
   - Zaimportuj `View`, `StyleSheet` z `'react-native'`
   - Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
   - Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
-  - Ustaw dla kontener i podreślenia takie parametry jak: `color`/`backgroundColor`, `margin`
+  - Ostyluj kontener i podkreślenia
   - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
 
 - Zaimportuj do pliku głównego `App.js`: `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
-  - Struktura  `App.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby były równe ostępy między kontenerami jak i zawarością kontenera, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze `<Text>123</Text>`):
+  - Struktura  `App.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby teść nie nachodziła na statusbar, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze `<Text>123</Text>`):
 
 <img align="center" width="600" height="136" src="img/img1.png">
 
