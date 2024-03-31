@@ -33,7 +33,7 @@ Komendy które będziesz często używał w Expo:
   - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
 
 - Zaimportuj do pliku głównego `App.js`: `Container`, [`SafeAreaView`](https://reactnative.dev/docs/safeareaview), [`ScrollView`](https://reactnative.dev/docs/scrollview), [`StatusBar`](https://reactnative.dev/docs/statusbar), [`Text`](https://reactnative.dev/docs/text)
-  - Struktura  `App.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby teść nie nachodziła na statusbar, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze `<Text>`123`</Text>`)
+  - Struktura  `App.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby teść nie nachodziła na statusbar, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze *<Text>123</Text>*)
 
 ## Zadanie 2
 
@@ -44,11 +44,7 @@ Komendy które będziesz często używał w Expo:
   - Wykorzystaj `useState` oraz właściwości `TextInput`
   - Dodaj style do komponent
 - Zaimprotuj komponent do pliku `App.js` 
-  - Umieść zaimportowany komponent w kontenerze 
-- Przykładowy wygląd
-
-<img src="img/img4.png" width="300" height="150"> <img src="img/img2.png" width="300" height="150"> <img src="img/img3.png" width="300" height="150">
-
+  - Umieść zaimportowany komponent w kontenerze
 
 ## Zadanie 3
 
