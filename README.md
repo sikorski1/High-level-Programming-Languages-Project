@@ -31,7 +31,6 @@ Komendy które będziesz często używał w Expo:
   - Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
   - Ostyluj kontener i podkreślenia
   - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
-
 - Zaimportuj do pliku głównego `App.js`: `Container`, [`SafeAreaView`](https://reactnative.dev/docs/safeareaview), [`ScrollView`](https://reactnative.dev/docs/scrollview), [`StatusBar`](https://reactnative.dev/docs/statusbar), [`Text`](https://reactnative.dev/docs/text)
   - Struktura  `App.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby teść nie nachodziła na statusbar, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze `<Text>123</Text>`)
 
@@ -49,15 +48,16 @@ Komendy które będziesz często używał w Expo:
 ## Zadanie 3
 
 - Stwórz plik o nazwie `SecondComponent.js `
-- Stwórz plik `data.js`, który wypełnisz danymi potrzebnymi do wypełnienia kart:
-  - `id`, `text`, `img`, zdjęcia pobierz z plików: `icon1`, `icon2`, ...
-
+- Pobierz plik `data.js`, który jest wypełniony danymi potrzebnymi do wypełnienia kart:
+  - `id`, `text`, `img`
+- Stwórz folder `assets` w głównym folderze projektu
+  - Pobierz zdjęcia z repozytorium i dodaj je do folderu `assets`
 - Zaimportuj `View`, `Text`, [`FlatList`](https://reactnative.dev/docs/flatlist), [`Image`](https://reactnative.dev/docs/image), `data` do `SecondComponent.js`
   - Stwórz `View` (flex:1) > `FlatList`, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
   - Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych
   - 
 Struktura:
-  - Ostyluj karty, dodaj `marginLeft` dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj `marginRight` (skorzystaj z `index` oraz `id`, użyj stylowania liniowego) 
+  - Dodaj style do kart, dodaj `marginLeft` dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj `marginRight` (skorzystaj z `index` oraz `id`, użyj stylowania liniowego) 
 - Zaimprotuj komponent do pliku `App.js `
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd:
@@ -66,7 +66,7 @@ Struktura:
 
 ## Zadanie 4
 
-- Teraz zrobimy przejście do nowej strony
+- Teraz zrobimy przejście do nowego widoku
   - pobierz plik `dummyData.js`, w którym znajdują się informacje na temat przedmiotów, które bedą pojawiały się po kliknięcu w ikonkę kategorii
   - WIP
 
