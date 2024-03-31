@@ -10,7 +10,7 @@
 - e) Oscyluj kontener oraz podreślenia
 - f) Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
 - g) Zaimportuj do pliku głównego `App.js` - `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
-- h) Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze <Text>123</Text>) <br><br><br>
+- h) Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze <Text>123</Text>) <br><br>
 ![Struktura](img/img1.png) <br><br>
 -  Przykładowy wygląd <br><br>
 ![Kontener](img/container.png)
