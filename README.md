@@ -5,13 +5,14 @@ Pomocne strony:
   - Wprowadzenie do Reacta - [Quick Start](https://react.dev/learn)
   - Dokumentacja - [React Reference Overview](https://react.dev/reference/react)
   - useState:
-    - [nauka](https://react.dev/learn/state-a-components-memory)
-    - [zaawansowane](https://react.dev/reference/react/useState)
+    - [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
+    - [useState](https://react.dev/reference/react/useState)
 - React Native:
   - Wprowadzenie do Reacta Native - [Introduction](https://reactnative.dev/docs/getting-started)
   - Hierarchia komponentów - [Thinking in React](https://react.dev/learn/thinking-in-react)
   - Różnice w komponentach - [RN Components](https://reactnative.dev/docs/intro-react-native-components)
   - Najważniejsze kompnenty - [Core Components](https://reactnative.dev/docs/components-and-apis)
+  - RN API - [API](https://reactnative.dev/docs/accessibilityinfo)
 
 
 # Część praktyczna
