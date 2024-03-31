@@ -57,8 +57,8 @@ Struktura:
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd:
 
-<img src="img/img7.png" width="300" height="150">
-<img src="img/img8.png" width="300" height="150">
+<img src="img/img7.png" width="300" height="284">
+<img src="img/img8.png" width="300" height="284">
 
 
 
