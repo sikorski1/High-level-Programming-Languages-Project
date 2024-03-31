@@ -15,12 +15,12 @@
 - Zaimportuj do pliku głównego `App.js`: `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
   - Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze `<Text>123</Text>`):
 
-<img src="img/img1.png" width="200" height="600">
+<img src="img/img1.png" width="600" height="200">
 
 
 -  Przykładowy wygląd:
 
-<img src="img/container.png" width="200" height="6000">
+<img src="img/container.png" width="600" height="200">
 
 
 ### Zadanie 2
