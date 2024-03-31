@@ -52,7 +52,7 @@ Struktura:
 
 <img src="img/img5.png" width="300" height="153">
 
-  - Ustaw karty, dodaj `marginLeft` dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj `marginRight` (skorzystaj z `index` oraz `id`, użyj stylowania liniowego) 
+  - Ostyluj karty, dodaj `marginLeft` dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj `marginRight` (skorzystaj z `index` oraz `id`, użyj stylowania liniowego) 
 - Zaimprotuj komponent do pliku `App.js `
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd:
