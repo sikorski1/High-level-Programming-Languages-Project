@@ -30,11 +30,11 @@ Zadanie 3
 > b) Stwórz plik data.js, który wypełnisz danymi potrzebnymi do wypełnienia kart (id, text, img), zdjęcia pobierz z plików (icon1, icon2, ...) <br><br><br>
 > ![Struktura](img6.png) <br><br><br>
 > c) Zaimportuj View, Text, FlatList, Image, data do SecondComponent <br><br>
-> d) Stwórz View(flex:1) > FlatListę, do której przekażesz dane <br><br>
+> d) Stwórz View(flex:1) > FlatListę, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny <br><br>
 > e) Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych <br><br>
 > f) Struktura <br><br><br>
 > ![Struktura](img5.png) <br><br><br>
-> g) Oscyluj karty <br><br>
+> g) Oscyluj karty, dodaj marginLeft dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj marginRight (skorzystaj z index oraz id, użyj stylowania liniowego) <br><br>
 > h) Zaimprotuj komponent do pliku App.js <br><br>
 > i) Umieść zaimportowany komponent w kontenerze <br><br>
 > Przykładowy wygląd <br><br><br>
