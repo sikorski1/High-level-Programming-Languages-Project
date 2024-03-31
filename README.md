@@ -26,25 +26,25 @@
 - g) Zaimprotuj komponent do pliku App.js 
 - h) Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd <br>
-- ![TextInput](img/img4.png)
-- ![TextInput](img/img2.png)
-- ![TextInput](img/img3.png) <br>
+![TextInput](img/img4.png)
+![TextInput](img/img2.png)
+![TextInput](img/img3.png) <br>
 
 ### Zadanie 3
 - a) Stwórz plik o nazwie SecondComponent.js 
 - b) Stwórz plik data.js, który wypełnisz danymi potrzebnymi do wypełnienia kart (id, text, img), zdjęcia pobierz z plików (icon1, icon2, ...) <br>
-- ![Struktura](img/img6.png) <br>
+![Struktura](img/img6.png) <br>
 - c) Zaimportuj View, Text, FlatList, Image, data do SecondComponent 
 - d) Stwórz View(flex:1) > FlatListę, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
 - e) Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych 
 - f) Struktura <br>
-- ![Struktura](img/img5.png) <br>
+![Struktura](img/img5.png) <br>
 - g) Oscyluj karty, dodaj marginLeft dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj marginRight (skorzystaj z index oraz id, użyj stylowania liniowego) 
 - h) Zaimprotuj komponent do pliku App.js 
 - i) Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd <br>
-> ![Items](img/img7.png)
-> ![Items](img/img8.png)
+![Items](img/img7.png)
+![Items](img/img8.png)
 
 
 
