@@ -13,13 +13,14 @@
   - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
 
 - Zaimportuj do pliku głównego `App.js`: `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
-  - Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze <Text>123</Text>)
+  - Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze `<Text>123</Text>`):
 
-![Struktura](img/img1.png)
+<img src="img/img1.png" width="200" height="600">
 
--  Przykładowy wygląd
 
-![Kontener](img/container.png)
+-  Przykładowy wygląd:
+
+<img src="img/container.png" width="200" height="6000">
 
 
 ### Zadanie 2
@@ -34,7 +35,7 @@
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd
 
-<img src="img/img4.png" width="300" height="150"><img src="img/img2.png" width="300" height="150"><img src="img/img3.png" width="300" height="150">
+<img src="img/img4.png" width="300" height="150"> <img src="img/img2.png" width="300" height="150"> <img src="img/img3.png" width="300" height="150">
 
 
 ### Zadanie 3
