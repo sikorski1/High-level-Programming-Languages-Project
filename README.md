@@ -65,8 +65,8 @@ Komendy które będziesz często używał w Expo:
 <img src="img/img6.png" width="300" height="156">
 
 - Stwórz folder `assets` w głównym folderze projektu
-  - Pobierz zdjęcia z repozytorium i dodaj je do folderu `assets`
-  - dodaj ścieżki do odpowiednich pól `require`, które są puste w `data.js`
+  - Pobierz folder `icons` z repozytorium i dodaj je do folderu `assets`
+  - dodaj ścieżki do *ikonek* z folderu `icons` do odpowiednich pól `require`, które są puste w `data.js`
 - Zaimportuj `View`, `Text`, [`FlatList`](https://reactnative.dev/docs/flatlist), [`Image`](https://reactnative.dev/docs/image), `data.js` do `SecondComponent.js`
   - Stwórz `View` (flex:1) > `FlatList`, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
   - Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych
