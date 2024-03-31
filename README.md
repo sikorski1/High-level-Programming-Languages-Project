@@ -21,7 +21,7 @@ Zadanie 2
 > g) Zaimprotuj komponent do pliku App.js <br><br>
 > h) Umieść zaimportowany komponent w kontenerze <br><br>
 > Przykładowy wygląd <br><br><br>
-> >![TextInput](img2.png)
-> >![TextInput](img3.png) <br><br><br>
+> ![TextInput](img2.png)
+> ![TextInput](img3.png) <br><br><br>
 
 
