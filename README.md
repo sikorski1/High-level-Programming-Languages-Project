@@ -20,7 +20,7 @@
 
 -  Przykładowy wygląd:
 
-<img src="img/container.png" width="600" height="200">
+<img align="center" width="600" height="102" src="img/container.png">
 
 
 ### Zadanie 2
