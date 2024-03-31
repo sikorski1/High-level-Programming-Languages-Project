@@ -77,7 +77,7 @@ Struktura:
   - Dodaj style do kart, dodaj `marginLeft` dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj `marginRight` (skorzystaj z `index` oraz `id`, użyj stylowania liniowego) 
 - Zaimprotuj komponent do pliku `App.js `
   - Umieść zaimportowany komponent w kontenerze 
-- Przykładowy wygląd:
+- Przykładowy wygląd, zwróć uwagę na odstęp na końcu i na początku nowego komponentu:
 
 <img src="img/img7.png" width="300" height="284"> <img src="img/img8.png" width="300" height="284">
 
