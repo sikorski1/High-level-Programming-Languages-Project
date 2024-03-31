@@ -3,28 +3,28 @@
 
 # Część praktyczna
 ### Zadanie 1
-- a) Stwórz plik o nazwie `Container.js`
-- b) Zaimportuj `View`, `StyleSheet`
-- c) Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
-- d) Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
-- e) Oscyluj kontener oraz podreślenia
-- f) Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
-- g) Zaimportuj do pliku głównego `App.js` - `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
-- h) Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze <Text>123</Text>) <br>
+-  Stwórz plik o nazwie `Container.js`
+-  Zaimportuj `View`, `StyleSheet`
+-  Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
+-  Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
+-  Oscyluj kontener oraz podreślenia
+-  Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
+-  Zaimportuj do pliku głównego `App.js` - `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
+-  Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze <Text>123</Text>) <br>
 ![Struktura](img/img1.png) 
 -  Przykładowy wygląd <br>
 ![Kontener](img/container.png)
 
 
 ### Zadanie 2
-- a) Stwórz plik o nazwie FirstComponent.js 
-- b) Zaimportuj View, Text, TextInput, StyleSheet 
-- c) Zaimportuj useState 
-- d) Stwórz komponent, który będzie wypełniać <Text>, tekstem wpisanym do <TextInput> 
-- e) Wykorzystaj useState oraz właściwości TextInput 
-- f) Oscyluj komponent 
-- g) Zaimprotuj komponent do pliku App.js 
-- h) Umieść zaimportowany komponent w kontenerze 
+-  Stwórz plik o nazwie FirstComponent.js 
+-  Zaimportuj View, Text, TextInput, StyleSheet 
+-  Zaimportuj useState 
+-  Stwórz komponent, który będzie wypełniać <Text>, tekstem wpisanym do <TextInput> 
+-  Wykorzystaj useState oraz właściwości TextInput 
+-  Oscyluj komponent 
+-  Zaimprotuj komponent do pliku App.js 
+-  Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd <br>
 <img src="img/img4.png" width="300" height="200"><br><br>
 ![TextInput](img/img2.png) <br>
