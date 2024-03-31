@@ -18,13 +18,13 @@ Komendy które będziesz często używał w Expo:
 ## Zadanie 1
 
 - Stwórz plik o nazwie `Container.js`
-  - Zaimportuj [`View`](https://reactnative.dev/docs/view), `StyleSheet` z `'react-native'`
+  - Zaimportuj [`View`](https://reactnative.dev/docs/view), [`StyleSheet`](https://reactnative.dev/docs/stylesheet) z `'react-native'`
   - Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
   - Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
   - Ostyluj kontener i podkreślenia
   - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
 
-- Zaimportuj do pliku głównego `App.js`: `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
+- Zaimportuj do pliku głównego `App.js`: `Container`, [`SafeAreaView`](https://reactnative.dev/docs/safeareaview), [`ScrollView`](https://reactnative.dev/docs/scrollview), [`StatusBar`](https://reactnative.dev/docs/statusbar), [`Text`](https://reactnative.dev/docs/text)
   - Struktura  `App.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby teść nie nachodziła na statusbar, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze `<Text>123</Text>`):
 
 <img align="center" width="600" height="136" src="img/img1.png">
@@ -37,11 +37,11 @@ Komendy które będziesz często używał w Expo:
 ## Zadanie 2
 
 - Stwórz plik o nazwie `FirstComponent.js`
-  - Zaimportuj `View`, `Text`, `TextInput`, `StyleSheet` z 
-  - Zaimportuj `useState`
-- Stwórz komponent, który będzie wypełniać komponent `<Text>`, tekstem wpisanym do `<TextInput>`
+  - Zaimportuj `View`, `Text`, [`TextInput`](https://reactnative.dev/docs/textinput), `StyleSheet` z 
+  - Zaimportuj [`useState`](https://react.dev/reference/react/useState)
+- Stwórz komponent, który będzie wypełniać komponent `Text`, tekstem wpisanym do `TextInput`
   - Wykorzystaj `useState` oraz właściwości `TextInput`
-  - Ostyluj komponent
+  - Dodaj style do komponent
 - Zaimprotuj komponent do pliku `App.js` 
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd
@@ -57,8 +57,8 @@ Komendy które będziesz często używał w Expo:
 
 <img src="img/img6.png" width="300" height="156">
 
-- Zaimportuj `View`, `Text`, `FlatList`, `Image`, `data` do `SecondComponent.js`
-  - Stwórz `View` (flex:1) > `FlatListę`, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
+- Zaimportuj `View`, `Text`, [`FlatList`](https://reactnative.dev/docs/flatlist), [`Image`](https://reactnative.dev/docs/image), `data` do `SecondComponent.js`
+  - Stwórz `View` (flex:1) > `FlatList`, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
   - Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych 
 Struktura:
 
