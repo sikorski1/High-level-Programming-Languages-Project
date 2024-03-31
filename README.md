@@ -3,6 +3,8 @@
 
 # Część praktyczna
 
+Przed rozpoczęciem pierwszego zadania, zainstaluj [Node.js](https://nodejs.org/en) oraz [Expo](https://reactnative.dev/docs/environment-setup)
+
 ## Zadanie 1
 
 - Stwórz plik o nazwie `Container.js`
