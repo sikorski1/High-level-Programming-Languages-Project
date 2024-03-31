@@ -9,11 +9,11 @@
   - Zaimportuj `View`, `StyleSheet`
   - Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
   - Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
-  - Oscyluj kontener oraz podreślenia
+  - Ustaw dla kontener i podreślenia takie parametry jak: `color`/`backgroundColor`, `margin`
   - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
 
 - Zaimportuj do pliku głównego `App.js`: `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
-  - Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze `<Text>123</Text>`):
+  - Struktura  `App.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby były równe ostępy między kontenerami jak i zawarością kontenera, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze `<Text>123</Text>`):
 
 <img align="center" width="600" height="136" src="img/img1.png">
 
@@ -29,7 +29,7 @@
   - Zaimportuj `useState`
 - Stwórz komponent, który będzie wypełniać `<Text>`, tekstem wpisanym do `<TextInput>`
   - Wykorzystaj `useState` oraz właściwości `TextInput`
-  - Oscyluj komponent 
+  - Ustaw odpowiednio komponent, pomocne będą: `margin` oraz `padding`
 - Zaimprotuj komponent do pliku `App.js` 
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd
