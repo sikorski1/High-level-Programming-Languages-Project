@@ -1,5 +1,5 @@
 # Część teoretyczna
-  Prezentcja do całego laboratorium znajduje się [tutaj]()
+  Prezentcja do całego laboratorium znajduje się [tutaj](https://github.com/sikorski1/High-level-Programming-Languages-Project/blob/main/React_Native_od_zera_JPWP.odp)
 
 # Część praktyczna
 ### Zadanie 1
