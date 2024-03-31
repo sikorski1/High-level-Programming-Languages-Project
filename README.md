@@ -35,11 +35,11 @@ Komendy które będziesz często używał w Expo:
 - Zaimportuj do pliku głównego `App.js`: `Container`, [`SafeAreaView`](https://reactnative.dev/docs/safeareaview), [`ScrollView`](https://reactnative.dev/docs/scrollview), [`StatusBar`](https://reactnative.dev/docs/statusbar), [`Text`](https://reactnative.dev/docs/text)
   - Struktura  `App.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby teść nie nachodziła na statusbar, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze `<Text>123</Text>`):
 
-<img align="center" width="600" height="136" src="img/img1.png">
+//<img align="center" width="600" height="136" src="img/img1.png">
 
--  Przykładowy wygląd:
+//-  Przykładowy wygląd:
 
-<img align="center" width="600" height="102" src="img/container.png">
+//<img align="center" width="600" height="102" src="img/container.png">
 
 
 ## Zadanie 2
