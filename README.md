@@ -23,7 +23,7 @@ Zadanie 2
 > Przykładowy wygląd <br><br><br>
 > ![TextInput](img/img4.png)
 > ![TextInput](img/img2.png)
-> ![TextInput](img3.png) <br><br><br>
+> ![TextInput](img/img3.png) <br><br><br>
 
 Zadanie 3
 > a) Stwórz plik o nazwie SecondComponent.js <br><br>
