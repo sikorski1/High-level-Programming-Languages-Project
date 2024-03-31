@@ -1,7 +1,11 @@
-Zadanie 1
-> a) Stwórz plik o nazwie Container.js <br><br>
-> b) Zaimportuj View, StyleSheet <br><br>
-> c) Stwórz funkcję, która będzie zwracać kontener, skorzystaj z View <br><br>
+# Część teoretyczna
+  Prezentcja do całego laboratorium znajduje się [tutaj]()
+
+# Część praktyczna
+### Zadanie 1
+> a) Stwórz plik o nazwie `Container.js` <br><br>
+> b) Zaimportuj `View`, `StyleSheet` <br><br>
+> c) Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View` <br><br>
 > d) Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść <br><br>
 > e) Oscyluj kontener oraz podreślenia <br><br>
 > f) Skorzystaj z props, aby umożliwić umieszczenie komponentu w kontenerze <br><br>
