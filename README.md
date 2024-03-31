@@ -29,7 +29,7 @@
   - Zaimportuj `useState`
 - Stwórz komponent, który będzie wypełniać komponent `<Text>`, tekstem wpisanym do `<TextInput>`
   - Wykorzystaj `useState` oraz właściwości `TextInput`
-  - Wyrównaj odpowiednio komponent, pomocne będą: `margin` oraz `padding`
+  - Ostyluj komponent
 - Zaimprotuj komponent do pliku `App.js` 
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd
