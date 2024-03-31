@@ -18,7 +18,7 @@ Komendy które będziesz często używał w Expo:
 ## Zadanie 1
 
 - Stwórz plik o nazwie `Container.js`
-  - Zaimportuj `View`, `StyleSheet` z `'react-native'`
+  - Zaimportuj [`View`](https://reactnative.dev/docs/view), `StyleSheet` z `'react-native'`
   - Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
   - Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
   - Ostyluj kontener i podkreślenia
