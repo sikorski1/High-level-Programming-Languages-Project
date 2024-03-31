@@ -34,11 +34,11 @@ Komendy które będziesz często używał w Expo:
 - Zaimportuj do pliku głównego `App.js`: `Container`, [`SafeAreaView`](https://reactnative.dev/docs/safeareaview), [`ScrollView`](https://reactnative.dev/docs/scrollview), [`StatusBar`](https://reactnative.dev/docs/statusbar), [`Text`](https://reactnative.dev/docs/text)
   - Struktura  `App.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby teść nie nachodziła na statusbar, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze `<Text>123</Text>`)
 
-<img align="center" width="600" height="136" src="img/img1.png">
+> <img align="center" width="600" height="136" src="img/img1.png">
 
 -  Przykładowy wygląd:
 
-<img align="center" width="600" height="102" src="img/container.png">
+> <img align="center" width="600" height="102" src="img/container.png">
 
 ## Zadanie 2
 
@@ -53,7 +53,7 @@ Komendy które będziesz często używał w Expo:
 
   - Przykładowy wygląd
 
-<img src="img/img4.png" width="300" height="150">
+> <img src="img/img4.png" width="300" height="150">
 
 ## Zadanie 3
 
@@ -62,7 +62,7 @@ Komendy które będziesz często używał w Expo:
   - `id`, `text`, `img`
   - struktura danych:
 
-<img src="img/img6.png" width="300" height="156">
+> <img src="img/img6.png" width="300" height="156">
 
 - Stwórz folder `assets` w głównym folderze projektu
   - Pobierz folder `icons` z repozytorium i dodaj je do folderu `assets`
@@ -71,7 +71,7 @@ Komendy które będziesz często używał w Expo:
   - Stwórz `View` (flex:1) > `FlatList`, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
   - Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych
 
-<img src="img/img5.png" width="300" height="153">
+> <img src="img/img5.png" width="300" height="153">
 
 Struktura:
   - Dodaj style do kart, dodaj `marginLeft` dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj `marginRight` (skorzystaj z `index` oraz `id`, użyj stylowania liniowego) 
@@ -79,7 +79,7 @@ Struktura:
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd, zwróć uwagę na odstęp na końcu i na początku nowego komponentu:
 
-<img src="img/img7.png" width="300" height="284"> <img src="img/img8.png" width="300" height="284">
+> <img src="img/img7.png" width="300" height="284"> <img src="img/img8.png" width="300" height="284">
 
 ## Zadanie 4
 
