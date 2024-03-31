@@ -58,7 +58,7 @@ Komendy które będziesz często używał w Expo:
 ## Zadanie 3
 
 - Stwórz plik o nazwie `SecondComponent.js `
-- Pobierz plik `dataItems.js`, który jest wypełniony danymi potrzebnymi do wypełnienia kart:
+- Pobierz plik `data.js`, który jest wypełniony danymi potrzebnymi do wypełnienia kart:
   - `id`, `text`, `img`
   - struktura danych:
 
@@ -66,8 +66,8 @@ Komendy które będziesz często używał w Expo:
 
 - Stwórz folder `assets` w głównym folderze projektu
   - Pobierz zdjęcia z repozytorium i dodaj je do folderu `assets`
-  - dodaj ścieżki do odpowiednich pól `require`, które są puste w `dataItems.js`
-- Zaimportuj `View`, `Text`, [`FlatList`](https://reactnative.dev/docs/flatlist), [`Image`](https://reactnative.dev/docs/image), `dataItems.js` do `SecondComponent.js`
+  - dodaj ścieżki do odpowiednich pól `require`, które są puste w `data.js`
+- Zaimportuj `View`, `Text`, [`FlatList`](https://reactnative.dev/docs/flatlist), [`Image`](https://reactnative.dev/docs/image), `data.js` do `SecondComponent.js`
   - Stwórz `View` (flex:1) > `FlatList`, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
   - Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych
 
