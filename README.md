@@ -3,7 +3,7 @@
 
 # Część praktyczna
 
-### Zadanie 1
+## Zadanie 1
 
 - Stwórz plik o nazwie `Container.js`
   - Zaimportuj `View`, `StyleSheet` z `'react-native'`
@@ -22,7 +22,7 @@
 <img align="center" width="600" height="102" src="img/container.png">
 
 
-### Zadanie 2
+## Zadanie 2
 
 - Stwórz plik o nazwie `FirstComponent.js`
   - Zaimportuj `View`, `Text`, `TextInput`, `StyleSheet` z 
@@ -37,7 +37,7 @@
 <img src="img/img4.png" width="300" height="150"> <img src="img/img2.png" width="300" height="150"> <img src="img/img3.png" width="300" height="150">
 
 
-### Zadanie 3
+## Zadanie 3
 
 - Stwórz plik o nazwie `SecondComponent.js `
 - Stwórz plik `data.js`, który wypełnisz danymi potrzebnymi do wypełnienia kart:
@@ -58,6 +58,12 @@ Struktura:
 - Przykładowy wygląd:
 
 <img src="img/img7.png" width="300" height="284"> <img src="img/img8.png" width="300" height="284">
+
+## Zadanie 4
+
+- Teraz zrobimy przejście do nowej strony
+  - pobierz plik `dummyData.js`, w którym znajdują się informacje na temat przedmiotów, które bedą pojawiały się po kliknięcu w ikonkę kategorii
+  - WIP
 
 
 
