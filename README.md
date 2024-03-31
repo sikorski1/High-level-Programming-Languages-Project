@@ -6,6 +6,9 @@ Pomocne strony:
 - Wprowadzenie do Reacta Native - [Introduction](https://reactnative.dev/docs/getting-started)
 - Różnice w komponentach - [RN Components](https://reactnative.dev/docs/intro-react-native-components)
 - Najważniejsze kompnenty - [Core Components](https://reactnative.dev/docs/components-and-apis)
+- useState:
+  - [nauka](https://react.dev/learn/state-a-components-memory)
+  - [zaawansowane](https://react.dev/reference/react/useState)
 
 # Część praktyczna
 
