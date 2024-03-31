@@ -13,9 +13,9 @@
   - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
 
 - Zaimportuj do pliku głównego `App.js`: `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
-  - Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze `<Text>123</Text>`): <br>
+  - Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze `<Text>123</Text>`):
 
-<img align="center" width="600" height="136" src="img/img1.png"><br>
+<img align="center" width="600" height="136" src="img/img1.png">
 
 -  Przykładowy wygląd:
 
@@ -27,7 +27,7 @@
 - Stwórz plik o nazwie `FirstComponent.js`
   - Zaimportuj `View`, `Text`, `TextInput`, `StyleSheet`
   - Zaimportuj `useState`
-- Stwórz komponent, który będzie wypełniać <Text>, tekstem wpisanym do <TextInput> 
+- Stwórz komponent, który będzie wypełniać `<Text>`, tekstem wpisanym do `<TextInput>`
   - Wykorzystaj `useState` oraz właściwości `TextInput`
   - Oscyluj komponent 
 - Zaimprotuj komponent do pliku `App.js` 
@@ -43,21 +43,21 @@
 - Stwórz plik `data.js`, który wypełnisz danymi potrzebnymi do wypełnienia kart:
   - `id`, `text`, `img`, zdjęcia pobierz z plików: `icon1`, `icon2`, ...
 
-![Struktura](img/img6.png)
+<img src="img/img6.png" width="300" height="150">
 
 - Zaimportuj `View`, `Text`, `FlatList`, `Image`, `data` do `SecondComponent.js`
   - Stwórz `View` (flex:1) > `FlatListę`, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
   - Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych 
 Struktura:
- 
-![Struktura](img/img5.png)
+
+<img src="img/img5.png" width="300" height="150">
 
 - Oscyluj karty, dodaj marginLeft dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj marginRight (skorzystaj z index oraz id, użyj stylowania liniowego) 
 Zaimprotuj komponent do pliku App.js 
 Umieść zaimportowany komponent w kontenerze 
 Przykładowy wygląd
 
-![Items](img/img7.png)
+<img src="img/img7.png" width="300" height="150">
 
 ![Items](img/img8.png)
 
