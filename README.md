@@ -4,7 +4,7 @@
 # Część praktyczna
 ### Zadanie 1
 -  Stwórz plik o nazwie `Container.js`
-  -  Zaimportuj `View`, `StyleSheet`
+-    Zaimportuj `View`, `StyleSheet`
   -  Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
   -  Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
   -  Oscyluj kontener oraz podreślenia
