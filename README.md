@@ -26,7 +26,7 @@
 - g) Zaimprotuj komponent do pliku App.js 
 - h) Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd <br>
-<img src="img/img4.png" width="300" height="400"><br><br>
+<img src="img/img4.png" width="300" height="200"><br><br>
 ![TextInput](img/img2.png) <br>
 ![TextInput](img/img3.png) <br>
 
