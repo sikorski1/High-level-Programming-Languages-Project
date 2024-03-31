@@ -3,14 +3,14 @@
 
 # Część praktyczna
 ### Zadanie 1
--  Stwórz plik o nazwie `Container.js`
--    Zaimportuj `View`, `StyleSheet`
-  -  Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
-  -  Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
-  -  Oscyluj kontener oraz podreślenia
-  -  Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
--  Zaimportuj do pliku głównego `App.js` - `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
- -  Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze <Text>123</Text>) <br>
+- Stwórz plik o nazwie `Container.js`
+  - Zaimportuj `View`, `StyleSheet`
+  - Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
+  - Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
+  - Oscyluj kontener oraz podreślenia
+  - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
+- Zaimportuj do pliku głównego `App.js` - `Container`, `SafeAreaView`, `ScrollView`, `StatusBar`, `Text`
+ - Struktura  `App.js`: `SafeAreaView` (oscyluj liniowo, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (dla testu umieść w kontenerze <Text>123</Text>) <br>
 ![Struktura](img/img1.png) 
 -  Przykładowy wygląd <br>
 ![Kontener](img/container.png)
