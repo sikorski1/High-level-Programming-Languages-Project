@@ -3,7 +3,11 @@
 
 # Część praktyczna
 
-Przed rozpoczęciem pierwszego zadania, zainstaluj [Node.js](https://nodejs.org/en) oraz [Expo](https://reactnative.dev/docs/environment-setup)
+Przed rozpoczęciem pierwszego zadania poprawnie skonfiguruj środowisko, w tym celu zainstaluj [Node.js](https://nodejs.org/en) oraz [Expo](https://docs.expo.dev/get-started/installation/)
+Komendy które będziesz często używał w Expo:
+  -  `npx expo start` - uruchamia projekt
+  -  `npx expo --tunnel` - jeśli nie można połączyć się ze swom telefonem (należy zatrzymać projekt i uruchomić go z tą komendą)
+  -  kiedy wyskakują błędy w Expo [link](https://sebhastian.com/npm-err-enoent/)
 
 ## Zadanie 1
 
