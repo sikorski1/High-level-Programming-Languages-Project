@@ -33,18 +33,17 @@
 - Zaimprotuj komponent do pliku `App.js` 
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd
-- 
+
 <img src="img/img4.png" width="300" height="150">
-
-![TextInput](img/img2.png)
-
-![TextInput](img/img3.png)
+<img src="img/img2.png" width="300" height="150">
+<img src="img/img3.png" width="300" height="150">
 
 
 ### Zadanie 3
 
 - Stwórz plik o nazwie `SecondComponent.js `
-- Stwórz plik `data.js`, który wypełnisz danymi potrzebnymi do wypełnienia kart (`id`, `text`, `img`), zdjęcia pobierz z plików (`icon1`, `icon2`, ...)
+- Stwórz plik `data.js`, który wypełnisz danymi potrzebnymi do wypełnienia kart:
+  - `id`, `text`, `img`, zdjęcia pobierz z plików: `icon1`, `icon2`, ...
 
 ![Struktura](img/img6.png)
 
