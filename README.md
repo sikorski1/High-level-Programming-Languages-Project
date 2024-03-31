@@ -43,22 +43,21 @@
 - Stwórz plik `data.js`, który wypełnisz danymi potrzebnymi do wypełnienia kart:
   - `id`, `text`, `img`, zdjęcia pobierz z plików: `icon1`, `icon2`, ...
 
-<img src="img/img6.png" width="300" height="150">
+<img src="img/img6.png" width="300" height="156">
 
 - Zaimportuj `View`, `Text`, `FlatList`, `Image`, `data` do `SecondComponent.js`
   - Stwórz `View` (flex:1) > `FlatListę`, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
   - Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych 
 Struktura:
 
-<img src="img/img5.png" width="300" height="150">
+<img src="img/img5.png" width="300" height="153">
 
   - Ustaw karty, dodaj `marginLeft` dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj `marginRight` (skorzystaj z `index` oraz `id`, użyj stylowania liniowego) 
 - Zaimprotuj komponent do pliku `App.js `
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd:
 
-<img src="img/img7.png" width="300" height="284">
-<img src="img/img8.png" width="300" height="284">
+<img src="img/img7.png" width="300" height="284"> <img src="img/img8.png" width="300" height="284">
 
 
 
