@@ -23,6 +23,16 @@ Komendy które będziesz często używał w Expo:
   -  `npx expo --tunnel` - jeśli nie można połączyć się ze swom telefonem (należy zatrzymać projekt i uruchomić go z tą komendą)
   -  kiedy wyskakują błędy w Expo [link](https://sebhastian.com/npm-err-enoent/)
 
+## Zadanie 0
+
+- Stworzenie projektu z pomocą Expo:
+  - Otwórz za pomocą np. VSC folder w którym chcesz stworzyć projekt
+  - w terminalu wpisz komendę `npx expo init **nazwa**`, aby stowrzyć nowy projekt (może to chwilę zająć)
+- Przejrzyj pliki, które się tam znajdują. Które pliki interesują nas najbaridzej?
+- Stwórz folder `src` w głównym folderze projektu, w którym będziemy trzymać cały kod, który będziemy edytować
+  - w folderze `src` stwórz foldery: `data`, `components`, `constans`, `styles`
+  - przenieś plik `App.js` do folderu `src`
+
 ## Zadanie 1
 
 - Stwórz plik o nazwie `Container.js`
