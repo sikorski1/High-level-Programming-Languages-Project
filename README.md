@@ -12,6 +12,7 @@ Pomocne strony:
   - useState:
     - [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
     - [useState](https://react.dev/reference/react/useState)
+
 - React Native:
   - Wprowadzenie do Reacta Native - [Introduction](https://reactnative.dev/docs/getting-started)
   - Hierarchia komponentów - [Thinking in React](https://react.dev/learn/thinking-in-react)
@@ -33,9 +34,11 @@ Komendy które będziesz często używał w Expo:
 - Stworzenie projektu z pomocą Expo:
   - Otwórz za pomocą np. VSC folder w którym chcesz stworzyć projekt
   - w terminalu wpisz komendę `npx expo init *nazwa*`, aby stowrzyć nowy projekt (może to chwilę zająć)
+
 - Stwórz folder `src` w głównym folderze projektu, w którym będziemy trzymać cały kod, który będziemy edytować
   - w folderze `src` stwórz foldery: `data`, `components`, `constans`, `styles`, `pages`
   - przenieś plik `App.js` do folderu `src`
+
 - Teraz możesz uruchomić aplikację
   - Wyskoczył błąd, trzeba go napraiwć
   - Wskazówka, co robiliśmy z plikiem `App.js`?
@@ -48,9 +51,11 @@ Komendy które będziesz często używał w Expo:
   - Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
   - Dodaj style do kontenera i podkreślenia
   - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
+
 - W folderze `pages` stwórz plik `MainPage.js`, będziemy w nim korzystać z naszych komonentów
   - Zaimportuj do `MainPage.js`: `Container`, [`SafeAreaView`](https://reactnative.dev/docs/safeareaview), [`ScrollView`](https://reactnative.dev/docs/scrollview), [`StatusBar`](https://reactnative.dev/docs/statusbar), [`Text`](https://reactnative.dev/docs/text)
   - Struktura  `MainPage.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby teść nie nachodziła na statusbar, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze `<Text>123</Text>`)
+
 - Zapimotruj do pliku `App.js` komponent `MainPage.js` oraz użyj go
 
 > <img align="center" width="600" height="136" src="img/img1.png">
@@ -89,6 +94,7 @@ Komendy które będziesz często używał w Expo:
 - Stwórz folder `assets` w głównym folderze projektu
   - Pobierz folder `icons` z repozytorium i dodaj je do folderu `assets`
   - dodaj ścieżki do *ikonek* z folderu `icons` do odpowiednich pól `require`, które są puste w `data.js`
+
 - Stwórz plik o nazwie `SecondComponent.js `
   - Zaimportuj `View`, `Text`, [`FlatList`](https://reactnative.dev/docs/flatlist), [`Image`](https://reactnative.dev/docs/image), `data.js` do `SecondComponent.js`
   - Stwórz `View` (flex:1) > `FlatList`, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
@@ -98,7 +104,7 @@ Komendy które będziesz często używał w Expo:
 
 Struktura:
   - Dodaj style do kart, dodaj `marginLeft` dla każdej karty z wyłączeniem ostatniej. Dla ostatniej dodaj `marginRight` (skorzystaj z `index` oraz `id`, użyj stylowania liniowego) 
-- Zaimprotuj komponent do pliku `App.js `
+- Zaimprotuj komponent do pliku `MainPage.js `
   - Umieść zaimportowany komponent w kontenerze 
 - Przykładowy wygląd, zwróć uwagę na odstęp na końcu i na początku nowego komponentu:
 
