@@ -1,3 +1,6 @@
+# Projekt JPWP - Nauka React Native od zera
+  Nasze [repozytorium](https://github.com/sikorski1/XComCloneProject), w którym ostworzyliśmy UI aplikacji mobilnej x-kom
+  
 # Część teoretyczna
   Prezentcja do całego laboratorium znajduje się [tutaj](https://github.com/sikorski1/High-level-Programming-Languages-Project/raw/main/React_Native_od_zera_JPWP.odp)
 Pomocne strony:
