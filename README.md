@@ -92,7 +92,8 @@ Komendy które będziesz często używał w Expo:
 > <img src="img/img6.png" width="300" height="156">
 
 - Stwórz folder `assets` w głównym folderze projektu
-  - Pobierz folder `icons` z repozytorium i dodaj je do folderu `assets`
+  - Utwórz folder 'icons` w folderze `assets`
+  - Pobierz wszystkie ikonu z folder `icons` i dodaj je do folderu `assets/icons` w projekcie
   - dodaj ścieżki do *ikonek* z folderu `icons` do odpowiednich pól `require`, które są puste w `data.js`
 
 - Stwórz plik o nazwie `SecondComponent.js `
