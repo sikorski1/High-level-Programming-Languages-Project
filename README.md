@@ -64,10 +64,12 @@ Komendy które będziesz często używał w Expo:
 - Stwórz plik o nazwie `FirstComponent.js` w folderze `components`
   - Zaimportuj `View`, `Text`, [`TextInput`](https://reactnative.dev/docs/textinput), `StyleSheet` z 
   - Zaimportuj [`useState`](https://react.dev/reference/react/useState)
+
 - Stwórz komponent, który będzie wypełniać komponent `Text`, tekstem wpisanym do `TextInput`
   - Wykorzystaj `useState` oraz właściwości `TextInput`
   - Dodaj style do komponentu
   - po wpisaniu tekstu, powinien on być zapisywany oraz wyświetlać się obok napisu "Witaj"
+
 - Zaimprotuj komponent do pliku `MainPage.js`
   - Umieść zaimportowany komponent w kontenerze
   - Przykładowy wygląd
@@ -77,8 +79,8 @@ Komendy które będziesz często używał w Expo:
 
 ## Zadanie 3
 
-- Stwórz plik o nazwie `SecondComponent.js `
-- Pobierz plik `data.js`, który jest wypełniony danymi potrzebnymi do wypełnienia kart:
+
+- Pobierz z repozytorim plik `data.js`, który jest wypełniony danymi potrzebnymi do wypełnienia kart:
   - `id`, `text`, `img`
   - struktura danych:
 
@@ -87,7 +89,8 @@ Komendy które będziesz często używał w Expo:
 - Stwórz folder `assets` w głównym folderze projektu
   - Pobierz folder `icons` z repozytorium i dodaj je do folderu `assets`
   - dodaj ścieżki do *ikonek* z folderu `icons` do odpowiednich pól `require`, które są puste w `data.js`
-- Zaimportuj `View`, `Text`, [`FlatList`](https://reactnative.dev/docs/flatlist), [`Image`](https://reactnative.dev/docs/image), `data.js` do `SecondComponent.js`
+- Stwórz plik o nazwie `SecondComponent.js `
+  - Zaimportuj `View`, `Text`, [`FlatList`](https://reactnative.dev/docs/flatlist), [`Image`](https://reactnative.dev/docs/image), `data.js` do `SecondComponent.js`
   - Stwórz `View` (flex:1) > `FlatList`, do której przekażesz dane, usuniesz scrolla oraz ustawisz widok horyzontalny 
   - Za pomoca właściwości renderItem wygeneruj 5 kart korzystając z danych
 
