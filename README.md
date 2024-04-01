@@ -42,7 +42,7 @@ Komendy które będziesz często używał w Expo:
   - Zaimportuj [`View`](https://reactnative.dev/docs/view), [`StyleSheet`](https://reactnative.dev/docs/stylesheet) z `'react-native'`
   - Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
   - Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
-  - Dodaj style do kontenera i podkreślenia, stwórz je w folderze `styles`
+  - Dodaj style do kontenera i podkreślenia
   - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
 - W folderze `pages` stwórz plik `MainPage.js`, będziemy w nim korzystać z naszych komonentów
   - Zaimportuj do `MainPage.js`: `Container`, [`SafeAreaView`](https://reactnative.dev/docs/safeareaview), [`ScrollView`](https://reactnative.dev/docs/scrollview), [`StatusBar`](https://reactnative.dev/docs/statusbar), [`Text`](https://reactnative.dev/docs/text)
