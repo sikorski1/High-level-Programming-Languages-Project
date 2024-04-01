@@ -62,13 +62,14 @@ Komendy które będziesz często używał w Expo:
   - Zaimportuj [`useState`](https://react.dev/reference/react/useState)
 - Stwórz komponent, który będzie wypełniać komponent `Text`, tekstem wpisanym do `TextInput`
   - Wykorzystaj `useState` oraz właściwości `TextInput`
-  - Dodaj style do komponent
-- Zaimprotuj komponent do pliku `MainPage.js` 
+  - Dodaj style do komponentu
+  - po wpisaniu tekstu, powinien on być zapisywany oraz wyświetlać się obok napisu "Witaj"
+- Zaimprotuj komponent do pliku `MainPage.js`
   - Umieść zaimportowany komponent w kontenerze
-
   - Przykładowy wygląd
 
 > <img src="img/img4.png" width="300" height="150">
+
 
 ## Zadanie 3
 
