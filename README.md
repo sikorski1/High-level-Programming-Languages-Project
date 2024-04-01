@@ -57,13 +57,13 @@ Komendy które będziesz często używał w Expo:
 
 ## Zadanie 2
 
-- Stwórz plik o nazwie `FirstComponent.js`
+- Stwórz plik o nazwie `FirstComponent.js` w folderze `components`
   - Zaimportuj `View`, `Text`, [`TextInput`](https://reactnative.dev/docs/textinput), `StyleSheet` z 
   - Zaimportuj [`useState`](https://react.dev/reference/react/useState)
 - Stwórz komponent, który będzie wypełniać komponent `Text`, tekstem wpisanym do `TextInput`
   - Wykorzystaj `useState` oraz właściwości `TextInput`
   - Dodaj style do komponent
-- Zaimprotuj komponent do pliku `App.js` 
+- Zaimprotuj komponent do pliku `MainPage.js` 
   - Umieść zaimportowany komponent w kontenerze
 
   - Przykładowy wygląd
