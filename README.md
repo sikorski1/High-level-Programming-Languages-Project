@@ -30,19 +30,24 @@ Komendy które będziesz często używał w Expo:
   - w terminalu wpisz komendę `npx expo init *nazwa*`, aby stowrzyć nowy projekt (może to chwilę zająć)
 - Przejrzyj pliki, które się tam znajdują. Które pliki interesują nas najbaridzej?
 - Stwórz folder `src` w głównym folderze projektu, w którym będziemy trzymać cały kod, który będziemy edytować
-  - w folderze `src` stwórz foldery: `data`, `components`, `constans`, `styles`
+  - w folderze `src` stwórz foldery: `data`, `components`, `constans`, `styles`, `pages`
   - przenieś plik `App.js` do folderu `src`
+- Teraz możesz uruchomić aplikację
+  - Wyskoczył błąd, teraz musisz go naprawić
+  - Wskazówka, co robiliśmy z plikiem `App.js`?
 
 ## Zadanie 1
 
-- Stwórz plik o nazwie `Container.js`
+- Stwórz plik o nazwie `Container.js` w folderze `components`
   - Zaimportuj [`View`](https://reactnative.dev/docs/view), [`StyleSheet`](https://reactnative.dev/docs/stylesheet) z `'react-native'`
   - Stwórz funkcję, która będzie zwracać kontener, skorzystaj z `View`
   - Dodaj podkreślenia na górze i na dole kontenera, tak aby wyodrębić jego treść
-  - Ostyluj kontener i podkreślenia
+  - Dodaj style do kontenera i podkreślenia, stwórz je w folderze `styles`
   - Skorzystaj z właściwości, aby umożliwić umieszczenie komponentu w kontenerze
-- Zaimportuj do pliku głównego `App.js`: `Container`, [`SafeAreaView`](https://reactnative.dev/docs/safeareaview), [`ScrollView`](https://reactnative.dev/docs/scrollview), [`StatusBar`](https://reactnative.dev/docs/statusbar), [`Text`](https://reactnative.dev/docs/text)
-  - Struktura  `App.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby teść nie nachodziła na statusbar, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze `<Text>123</Text>`)
+- W folderze `pages` stwórz plik `MainPage.js`, będziemy w nim korzystać z naszych komonentów
+  - Zaimportuj do `MainPage.js`: `Container`, [`SafeAreaView`](https://reactnative.dev/docs/safeareaview), [`ScrollView`](https://reactnative.dev/docs/scrollview), [`StatusBar`](https://reactnative.dev/docs/statusbar), [`Text`](https://reactnative.dev/docs/text)
+  - Struktura  `MainPage.js`: `SafeAreaView` (odpowiednio ustaw komponent tzn. aby teść nie nachodziła na statusbar, dodając `marginTop: StatusBar.currentHeight`) > `ScrollView` > `Container` > (żeby sprawdzić czy nasze modyfikacje są poprawne umieść w kontenerze `<Text>123</Text>`)
+- Zapimotruj do pliku `App.js` komponent `MainPage.js` oraz użyj go
 
 > <img align="center" width="600" height="136" src="img/img1.png">
 
