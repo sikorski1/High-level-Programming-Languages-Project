@@ -27,7 +27,7 @@ Komendy które będziesz często używał w Expo:
 
 - Stworzenie projektu z pomocą Expo:
   - Otwórz za pomocą np. VSC folder w którym chcesz stworzyć projekt
-  - w terminalu wpisz komendę `npx expo init **nazwa**`, aby stowrzyć nowy projekt (może to chwilę zająć)
+  - w terminalu wpisz komendę `npx expo init /**nazwa**`, aby stowrzyć nowy projekt (może to chwilę zająć)
 - Przejrzyj pliki, które się tam znajdują. Które pliki interesują nas najbaridzej?
 - Stwórz folder `src` w głównym folderze projektu, w którym będziemy trzymać cały kod, który będziemy edytować
   - w folderze `src` stwórz foldery: `data`, `components`, `constans`, `styles`
