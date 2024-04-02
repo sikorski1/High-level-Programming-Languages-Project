@@ -79,7 +79,7 @@ Komendy które będziesz często używał w Expo:
   - Umieść zaimportowany komponent w kontenerze
   - Przykładowy wygląd
 
-> <img src="img/img4.png" width="300" height="150">
+> <img src="img/img6.png" width="300" height="150">
 
 
 ## Zadanie 3
