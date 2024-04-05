@@ -18,6 +18,7 @@ Pomocne strony:
   - Hierarchia komponentów - [Thinking in React](https://react.dev/learn/thinking-in-react)
   - Różnice w komponentach - [RN Components](https://reactnative.dev/docs/intro-react-native-components)
   - Najważniejsze kompnenty - [Core Components](https://reactnative.dev/docs/components-and-apis)
+  - Ułożenie elementów - [Layout with Flexbox](https://reactnative.dev/docs/flexbox)
   - RN API - [API](https://reactnative.dev/docs/accessibilityinfo)
 
 
