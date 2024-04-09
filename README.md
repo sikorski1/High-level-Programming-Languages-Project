@@ -93,7 +93,7 @@ Komendy które będziesz często używał w Expo:
 > <img src="img/img6.png" width="300" height="156">
 
 - Stwórz folder `assets` w głównym folderze projektu
-  - Utwórz folder 'icons` w folderze `assets`
+  - Utwórz folder `icons` w folderze `assets`
   - Pobierz wszystkie ikonu z folder `icons` i dodaj je do folderu `assets/icons` w projekcie
   - dodaj ścieżki do *ikonek* z folderu `icons` do odpowiednich pól `require`, które są puste w `data.js`
 
@@ -111,12 +111,5 @@ Struktura:
 - Przykładowy wygląd, zwróć uwagę na odstęp na końcu i na początku nowego komponentu:
 
 > <img src="img/img7.png" width="300" height="284"> <img src="img/img8.png" width="300" height="284">
-
-## Zadanie 4
-
-- Teraz zrobimy przejście do nowego widoku
-  - pobierz plik `dummyData.js`, w którym znajdują się informacje na temat przedmiotów, które bedą pojawiały się po kliknięcu w ikonkę kategorii
-  - WIP
-
 
 
